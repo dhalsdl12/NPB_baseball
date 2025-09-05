@@ -10,11 +10,12 @@ from github_setting import get_github_repo, upload_github_issue
   
 def pageCrawl():
     xpath = '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[2]'
-    element = driver.find_elements(By.XPATH, xpath)
-    try:
-        test.append(element.text)
-    except:
-        print("error")
+    elements = driver.find_elements(By.XPATH, xpath)
+    for element in elements:
+        try:
+            test.append(element.text)
+        except:
+            print("error")
 
 
 def extract_article_data():
