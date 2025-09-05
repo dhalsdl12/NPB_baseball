@@ -1,4 +1,4 @@
-name: NPB_baseball
+name: NPB_baseball_file
 
 on:
   schedule:
