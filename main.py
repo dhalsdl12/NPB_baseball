@@ -27,7 +27,7 @@ def extract_article_data():
     return upload_contents
 
 # 크롬 드라이버 자동 설치 및 실행
-def execute_drive():
+def execute_driver():
     url = 'https://npb.jp/bis/eng/2025/games/gm20250904.html'
     '''
     chrome_driver = os.path.join('chromedriver')
@@ -37,17 +37,17 @@ def execute_drive():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--disable-gpu')
     service = ChromeService(executable_path=chrome_driver)
-    drive = webdriver.Chrome(service=service, options=chrome_options)
-    drive.get(url)
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    driver.get(url)
     '''
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--disable-gpu')
-    drive = webdriver.Chrome(options=chrome_options)
-    drive.get(url)
-    return drive
+    driver = webdriver.Chrome(options=chrome_options)
+    driver.get(url)
+    return driver
 
 
 if __name__ == "__main__":
@@ -59,7 +59,7 @@ if __name__ == "__main__":
     
     test = []
 
-    drive = execute_drive()
+    driver = execute_driver()
     pageCrawl()
 
     for i in range(len(test)):
