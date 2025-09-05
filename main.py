@@ -65,8 +65,16 @@ if __name__ == "__main__":
     for i in range(len(test)):
         print(test[i])
 
-    issue_title = f"NPB_baseball ({today_date})"
+    #issue_title = f"NPB_baseball ({today_date})"
+    #upload_contents = extract_article_data()
+    #repo = get_github_repo(access_token, repository_name)
+    #upload_github_issue(repo, issue_title, upload_contents)
+    #print("Upload Github Issue Success!")
+
     upload_contents = extract_article_data()
-    repo = get_github_repo(access_token, repository_name)
-    upload_github_issue(repo, issue_title, upload_contents)
-    print("Upload Github Issue Success!")
+    filename = f"NPB_baseball_{today.strftime('%Y%m%d')}.txt"
+  
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(upload_contents)
+  
+    print(f"Text file created: {filename}")
