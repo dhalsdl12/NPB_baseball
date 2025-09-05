@@ -1,4 +1,4 @@
-name: Naver_sports
+name: NPB_baseball
 
 on:
   schedule:
