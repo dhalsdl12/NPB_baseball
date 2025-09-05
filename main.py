@@ -22,7 +22,7 @@ def extract_article_data():
     upload_contents = ''
 
     for i in range(len(test)):
-        url = '\"' + test[i] + '\"'
+        content = '\"' + test[i] + '\"'
         upload_contents += content
 
     return upload_contents
