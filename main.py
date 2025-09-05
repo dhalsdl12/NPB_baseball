@@ -74,8 +74,9 @@ if __name__ == "__main__":
 
     upload_contents = extract_article_data()
     filename = f"NPB_baseball_{today.strftime('%Y%m%d')}.txt"
+    file_path = os.path.join("NPB_Scores", filename)
   
-    with open(filename, "w", encoding="utf-8") as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         f.write(upload_contents)
   
     print(f"Text file created: {filename}")
