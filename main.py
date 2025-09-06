@@ -8,7 +8,7 @@ from pytz import timezone
 from github_setting import get_github_repo, upload_github_issue
 
   
-def pageCrawl():
+def npb_scores():
     xpath = '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[2]'
     elements = driver.find_elements(By.XPATH, xpath)
     for element in elements:
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     test = []
 
     driver = execute_driver()
-    pageCrawl()
+    npb_scores()
 
     for i in range(len(test)):
         print(test[i])
