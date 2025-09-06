@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from datetime import datetime
 from pytz import timezone
 from github_setting import get_github_repo, upload_github_issue
+from npb_scores import extract_scores, generate_md_table
 
   
 def npb_scores():
@@ -65,20 +66,32 @@ if __name__ == "__main__":
     driver.get(url_scores)
     npb_scores()
 
-    for i in range(len(test)):
-        print(test[i])
+    scores = extract_scores(driver)
+    md_contents = generate_md_table(scores
+    
+    today = datetime.now()
+    folder = "NPB_Scores"
+    os.makedirs(folder, exist_ok=True)
+    filename = os.path.join(folder, f"NPB_baseball_{today.strftime('%Y%m%d')}.md")
 
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(md_contents)
+
+    print(f"Markdown file created: {filename}")
+    
     #issue_title = f"NPB_baseball ({today_date})"
     #upload_contents = extract_article_data()
     #repo = get_github_repo(access_token, repository_name)
     #upload_github_issue(repo, issue_title, upload_contents)
     #print("Upload Github Issue Success!")
 
-    upload_contents = extract_article_data()
-    filename = f"NPB_baseball_{today.strftime('%Y%m%d')}.txt"
-    file_path = os.path.join("NPB_Scores", filename)
+    #upload_contents = extract_article_data()
+    #filename = f"NPB_baseball_{today.strftime('%Y%m%d')}.txt"
+    #file_path = os.path.join("NPB_Scores", filename)
   
-    with open(file_path, "w", encoding="utf-8") as f:
-        f.write(upload_contents)
+    #with open(file_path, "w", encoding="utf-8") as f:
+        #f.write(upload_contents)
   
-    print(f"Text file created: {filename}")
+    #print(f"Text file created: {filename}")
+    
+    driver.quit()
