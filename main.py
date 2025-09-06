@@ -67,7 +67,7 @@ if __name__ == "__main__":
     npb_scores()
 
     scores = extract_scores(driver)
-    md_contents = generate_md_table(scores
+    md_contents = generate_md_table(scores)
     
     today = datetime.now()
     folder = "NPB_Scores"
