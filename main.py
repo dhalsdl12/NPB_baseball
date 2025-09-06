@@ -29,7 +29,6 @@ def extract_article_data():
 
 # 크롬 드라이버 자동 설치 및 실행
 def execute_driver():
-    url = 'https://npb.jp/bis/eng/2025/games/gm20250904.html'
     '''
     chrome_driver = os.path.join('chromedriver')
     chrome_options = webdriver.ChromeOptions()
@@ -47,7 +46,7 @@ def execute_driver():
     chrome_options.add_argument('--disable-dev-shm-usage')
     chrome_options.add_argument('--disable-gpu')
     driver = webdriver.Chrome(options=chrome_options)
-    driver.get(url)
+    
     return driver
 
 
@@ -56,11 +55,14 @@ if __name__ == "__main__":
     repository_name = "NPB_baseball"
     seoul_timezone = timezone('Asia/Seoul')
     today = datetime.now(seoul_timezone)
-    today_date = today.strftime("%Y년 %m월 %d일")
+    #today_date = today.strftime("%Y년 %m월 %d일")
+    today_date = today.strftime('%Y%m%d')
+    url_scores = 'https://npb.jp/bis/eng/2025/games/gm' + today_date + '.html'
     
     test = []
 
     driver = execute_driver()
+    driver.get(url_scores)
     npb_scores()
 
     for i in range(len(test)):
