@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
-from datetime import datetime
+from datetime import datetime, timedelta
 from pytz import timezone
 from github_setting import get_github_repo, upload_github_issue
 from npb_scores import extract_scores, generate_md_table
@@ -70,6 +70,8 @@ if __name__ == "__main__":
     md_contents = generate_md_table(scores)
     
     today = datetime.now()
+    yesterday = today - timedelta(days=1)
+    
     folder = "NPB_Scores"
     os.makedirs(folder, exist_ok=True)
     filename = os.path.join(folder, f"NPB_baseball_{today.strftime('%Y%m%d')}.md")
