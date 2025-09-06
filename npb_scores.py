@@ -15,7 +15,7 @@ def extract_scores(driver):
     c_home_score = driver.find_element(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[3]').text
     c_away_score = driver.find_element(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[5]').text
     c_score = c_home_score + ' - ' + c_away_score
-    central_games.append({"home": c_home, "score": c_score, "away": away})
+    central_games.append({"home": c_home, "score": c_score, "away": c_away})
 
     return {"central": central_games, "pacific": pacific_games}
 
