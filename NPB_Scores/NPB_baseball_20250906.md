@@ -38,4 +38,10 @@
     <th colspan='3'>퍼시픽리그</th>
     <th></th>
   </tr>
+  <tr>
+    <td></td>
+    <td colspan='3'>경기 없음!</td>
+    <td></td>
+  </tr>
 </table>
+
