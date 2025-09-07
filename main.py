@@ -55,10 +55,12 @@ if __name__ == "__main__":
     access_token = os.environ['MY_GITHUB_TOKEN']
     repository_name = "NPB_baseball"
     seoul_timezone = timezone('Asia/Seoul')
+    
     today = datetime.now(seoul_timezone)
     #today_date = today.strftime("%Y년 %m월 %d일")
     today_date = today.strftime('%Y%m%d')
     url_scores = 'https://npb.jp/bis/eng/2025/games/gm' + today_date + '.html'
+    yesterday = today - timedelta(days=1)
     
     test = []
 
@@ -69,12 +71,9 @@ if __name__ == "__main__":
     scores = extract_scores(driver)
     md_contents = generate_md_table(scores)
     
-    today = datetime.now()
-    yesterday = today - timedelta(days=1)
-    
     folder = "NPB_Scores"
     os.makedirs(folder, exist_ok=True)
-    filename = os.path.join(folder, f"NPB_baseball_{today.strftime('%Y%m%d')}.md")
+    filename = os.path.join(folder, f"NPB_baseball_{yesterday.strftime('%Y%m%d')}.md")
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(md_contents)
