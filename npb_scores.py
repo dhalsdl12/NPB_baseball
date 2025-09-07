@@ -39,24 +39,34 @@ def generate_md_table(scores):
 
     md_contents += "</table>\n\n"
     
-    # 센트럴리그
+    # --- 센트럴리그 ---
     md_contents += "## ⚾ 센트럴리그\n\n"
     md_contents += "<table>\n"
     md_contents += "  <tr>\n    <th></th>\n    <th colspan='3'>센트럴리그</th>\n    <th></th>\n  </tr>\n"
-    for game in scores['central']:
-        md_contents += f"  <tr>\n    <td></td>\n"
-        md_contents += f"    <td>{game['home']}</td><td>{game['score']}</td><td>{game['away']}</td>\n"
-        md_contents += f"    <td></td>\n  </tr>\n"
+    if len(scores['central']) == 0:
+        md_contents += "  <tr>\n    <td></td>\n"
+        md_contents += "    <td colspan='3'>경기 없음!</td>\n"
+        md_contents += "    <td></td>\n  </tr>\n"
+    else:
+        for game in scores['central']:
+            md_contents += f"  <tr>\n    <td></td>\n"
+            md_contents += f"    <td>{game['home']}</td><td>{game['score']}</td><td>{game['away']}</td>\n"
+            md_contents += f"    <td></td>\n  </tr>\n"
     md_contents += "</table>\n\n"
 
-    # 퍼시픽리그
+    # --- 퍼시픽리그 ---
     md_contents += "## ⚾ 퍼시픽리그\n\n"
     md_contents += "<table>\n"
     md_contents += "  <tr>\n    <th></th>\n    <th colspan='3'>퍼시픽리그</th>\n    <th></th>\n  </tr>\n"
-    for game in scores['pacific']:
-        md_contents += f"  <tr>\n    <td></td>\n"
-        md_contents += f"    <td>{game['home']}</td><td>{game['score']}</td><td>{game['away']}</td>\n"
-        md_contents += f"    <td></td>\n  </tr>\n"
-    md_contents += "</table>\n"
+    if len(scores['pacific']) == 0:
+        md_contents += "  <tr>\n    <td></td>\n"
+        md_contents += "    <td colspan='3'>경기 없음!</td>\n"
+        md_contents += "    <td></td>\n  </tr>\n"
+    else:
+        for game in scores['pacific']:
+            md_contents += f"  <tr>\n    <td></td>\n"
+            md_contents += f"    <td>{game['home']}</td><td>{game['score']}</td><td>{game['away']}</td>\n"
+            md_contents += f"    <td></td>\n  </tr>\n"
+    md_contents += "</table>\n\n"
     
     return md_contents
