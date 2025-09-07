@@ -57,10 +57,14 @@ if __name__ == "__main__":
     seoul_timezone = timezone('Asia/Seoul')
     
     today = datetime.now(seoul_timezone)
+    yesterday = today - timedelta(days=1)
+    
     #today_date = today.strftime("%Y년 %m월 %d일")
     today_date = today.strftime('%Y%m%d')
-    url_scores = 'https://npb.jp/bis/eng/2025/games/gm' + today_date + '.html'
-    yesterday = today - timedelta(days=1)
+    yesterday_date = yesterday.strftime('%Y%m%d')
+    
+    url_scores = 'https://npb.jp/bis/eng/2025/games/gm' + yesterday_date + '.html'
+
     
     test = []
 
@@ -73,7 +77,7 @@ if __name__ == "__main__":
     
     folder = "NPB_Scores"
     os.makedirs(folder, exist_ok=True)
-    filename = os.path.join(folder, f"NPB_baseball_{yesterday.strftime('%Y%m%d')}.md")
+    filename = os.path.join(folder, f"NPB_baseball_{yesterday_date}.md")
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(md_contents)
