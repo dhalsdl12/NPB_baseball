@@ -9,7 +9,7 @@
   </tr>
   <tr>
     <td></td>
-    <td>DeNA</td><td> - </td><td>Yakult</td>
+    <td>DeNA</td><td>2 - 3</td><td>Yakult</td>
     <td></td><td></td><td></td>
     <td></td>
   </tr>
