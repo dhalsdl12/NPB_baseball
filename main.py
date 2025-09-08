@@ -8,7 +8,7 @@ from pytz import timezone
 from github_setting import get_github_repo, upload_github_issue
 from config import TODAY_DATE_STR, YESTERDAY_DATE_STR, YEAR
 from npb_scores import extract_scores, generate_md_table
-from npb_standings import extract_standings
+from npb_standings import extract_standings, generate_md_table_standing
 
 
 # 크롬 드라이버 자동 설치 및 실행
@@ -61,5 +61,8 @@ if __name__ == "__main__":
 
     # 순위 정보 파싱
     standings = extract_standings(driver, url_c, url_p)
+    
+    # Markdown 생성
+    md_contents = generate_md_table_standings(standings)
     
     driver.quit()
