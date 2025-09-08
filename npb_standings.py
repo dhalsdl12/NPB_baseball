@@ -41,7 +41,7 @@ def extract_standings(driver, url_c, url_p):
     
     # --- Pacific League ---
     driver.get(url_p)
-    pacific_prefix = '//*[@id="stdivmaintbl"]/table/tbody/tr/td/div[2]/table/tbody/tr'
+    pacific_prefix = '//*[@id="stdivmaintbl"]/table/tbody/tr/td/div[1]/table/tbody/tr'
     for i in range(2, 8):
         try:
             team = driver.find_element(By.XPATH, f'{pacific_prefix}[{i}]/td[1]/table/tbody/tr/td[2]').text.strip()
