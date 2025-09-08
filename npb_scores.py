@@ -147,12 +147,12 @@ def generate_md_table(scores):
         title = LEAGUE_TITLES.get(league, league)
 
         md_contents += f"### ⚾ {title}\n\n"
-        md_contents += "<table>\n"
-        md_contents += f"  <tr>\n    <th></th>\n    <th colspan='3'>{title}</th>\n    <th></th>\n  </tr>\n"
 
         if len(games) == 0:
             md_contents += "경기 없음!\n\n"
         else:
+            md_contents += "<table>\n"
+            md_contents += f"  <tr>\n    <th></th>\n    <th colspan='3'>{title}</th>\n    <th></th>\n  </tr>\n"
             for game in games:
                 home_logo = NPB_LOGOS.get(league, {}).get(game['home'], "")
                 away_logo = NPB_LOGOS.get(league, {}).get(game['away'], "")
@@ -164,7 +164,6 @@ def generate_md_table(scores):
                     f"    <td><img src='{away_logo}' width='30'></td>\n"
                     f"  </tr>\n"
                 )
-
-        md_contents += "</table>\n\n"
+            md_contents += "</table>\n\n"
 
     return md_contents
