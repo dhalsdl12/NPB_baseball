@@ -48,7 +48,7 @@ def extract_scores(driver):
     return {"central": central_games, "pacific": pacific_games}
 
 
-def generate_md_table(scores):
+def generate_md_table(scores, logos):
     """
     여러 경기 리스트를 받아서 HTML 테이블 포함 Markdown 생성
     """
@@ -77,8 +77,12 @@ def generate_md_table(scores):
         md_contents += "    <td></td>\n  </tr>\n"
     else:
         for game in scores['central']:
+            hoem_logo = logos["central"].get(game['home'], "")
+            away_logo = logos["central"].get(game['away'], "")
             md_contents += f"  <tr>\n    <td></td>\n"
+            md_contents += f"    <td><img src='{home_logo}' width='30'></td>\n"
             md_contents += f"    <td>{game['home']}</td><td>{game['score']}</td><td>{game['away']}</td>\n"
+            md_contents += f"    <td><img src='{away_logo}' width='30'></td>\n"
             md_contents += f"    <td></td>\n  </tr>\n"
     md_contents += "</table>\n\n"
 
@@ -92,8 +96,12 @@ def generate_md_table(scores):
         md_contents += "    <td></td>\n  </tr>\n"
     else:
         for game in scores['pacific']:
+            hoem_logo = logos["pacific"].get(game['home'], "")
+            away_logo = logos["pacific"].get(game['away'], "")
             md_contents += f"  <tr>\n    <td></td>\n"
+            md_contents += f"    <td><img src='{home_logo}' width='30'></td>\n"
             md_contents += f"    <td>{game['home']}</td><td>{game['score']}</td><td>{game['away']}</td>\n"
+            md_contents += f"    <td><img src='{away_logo}' width='30'></td>\n"
             md_contents += f"    <td></td>\n  </tr>\n"
     md_contents += "</table>\n\n"
     
