@@ -38,7 +38,7 @@ if __name__ == "__main__":
     # URL 설정 (연도와 날짜 자동 반영)
     url_scores = f'https://npb.jp/bis/eng/{YEAR}/games/gm{YESTERDAY_DATE_STR}.html'
     url_standing_c = f'https://npb.jp/bis/eng/{YEAR}/stats/std_c.html'
-    url_standing_p = f'https://npb.jp/bis/eng/{YEAR}/stats/std_c.html'
+    url_standing_p = f'https://npb.jp/bis/eng/{YEAR}/stats/std_p.html'
 
     driver = execute_driver()
     driver.get(url_scores)
