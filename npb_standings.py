@@ -66,5 +66,5 @@ def extract_standings(driver, url_c, url_p):
             print(f"Pacific row {i} error: {e}")
         
 
-def generate_md_table_standings:
+def generate_md_table_standings(standings):
     a
