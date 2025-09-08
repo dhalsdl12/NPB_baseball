@@ -62,7 +62,7 @@ def generate_md_table(scores):
 
     for league, games in scores.items():
         title = LEAGUE_TITLES.get(league, league)
-        md_contents += f"#### ⚾ {title}\n\n"
+        md_contents += f"### ⚾ {title}\n\n"
 
         if len(games) == 0:
             md_contents += "<br>"
