@@ -60,7 +60,7 @@ if __name__ == "__main__":
     print(f"Markdown file created: {filename}")
 
     # 순위 정보 파싱
-    standings = extract_standings(driver, url_c, url_p)
+    standings = extract_standings(driver, url_standing_c, url_standing_p)
     
     # Markdown 생성
     md_contents = generate_md_table_standings(standings)
