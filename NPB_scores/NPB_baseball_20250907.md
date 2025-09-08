@@ -1,12 +1,6 @@
 # 오늘의 경기 결과
 
 <table>
-  <tr>
-    <th></th>
-    <th colspan='3'>센트럴리그</th>
-    <th colspan='3'>퍼시픽리그</th>
-    <th></th>
-  </tr>
 ## ⚾ 센트럴리그
 
 <table>
