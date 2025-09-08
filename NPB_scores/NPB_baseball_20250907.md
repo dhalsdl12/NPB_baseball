@@ -1,12 +1,12 @@
 ## 오늘의 경기 결과
 
 
-#### ⚾ 센트럴리그
+### ⚾ Central League
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>센트럴리그</th>
+    <th colspan='3'>Central League</th>
     <th></th>
   </tr>
   <tr>
@@ -26,12 +26,12 @@
   </tr>
 </table>
 
-#### ⚾ 퍼시픽리그
+### ⚾ Pacific League
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>퍼시픽리그</th>
+    <th colspan='3'>Pacific League</th>
     <th></th>
   </tr>
   <tr>
@@ -51,16 +51,16 @@
   </tr>
 </table>
 
-#### ⚾ 인터리그
+### ⚾ Interleague
 
-<br>#### ⚾ C.L. 클라이맥스 시리즈 퍼스트 스테이지
+<br>### ⚾ C.L. Climax Series First Stage
 
-<br>#### ⚾ P.L. 클라이맥스 시리즈 퍼스트 스테이지
+<br>### ⚾ P.L. Climax Series First Stage
 
-<br>#### ⚾ C.L. 클라이맥스 시리즈 파이널 스테이지
+<br>### ⚾ C.L. Climax Series Final Stage
 
-<br>#### ⚾ P.L. 클라이맥스 시리즈 파이널 스테이지
+<br>### ⚾ P.L. Climax Series Final Stage
 
-<br>#### ⚾ 일본 시리즈
+<br>### ⚾ Nippon Series
 
 <br>
