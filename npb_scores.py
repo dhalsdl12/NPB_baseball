@@ -77,7 +77,7 @@ def generate_md_table(scores, logos):
         md_contents += "    <td></td>\n  </tr>\n"
     else:
         for game in scores['central']:
-            hoem_logo = logos["central"].get(game['home'], "")
+            home_logo = logos["central"].get(game['home'], "")
             away_logo = logos["central"].get(game['away'], "")
             md_contents += f"  <tr>\n    <td></td>\n"
             md_contents += f"    <td><img src='{home_logo}' width='30'></td>\n"
@@ -96,7 +96,7 @@ def generate_md_table(scores, logos):
         md_contents += "    <td></td>\n  </tr>\n"
     else:
         for game in scores['pacific']:
-            hoem_logo = logos["pacific"].get(game['home'], "")
+            home_logo = logos["pacific"].get(game['home'], "")
             away_logo = logos["pacific"].get(game['away'], "")
             md_contents += f"  <tr>\n    <td></td>\n"
             md_contents += f"    <td><img src='{home_logo}' width='30'></td>\n"
