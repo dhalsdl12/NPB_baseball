@@ -6,7 +6,7 @@
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>센트럴리그</th>
+    <th colspan='3'>⚾ 센트럴리그</th>
     <th></th>
   </tr>
   <tr>
@@ -31,7 +31,7 @@
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>퍼시픽리그</th>
+    <th colspan='3'>⚾ 퍼시픽리그</th>
     <th></th>
   </tr>
   <tr>
@@ -48,6 +48,96 @@
     <td><img src='https://npb.jp/bis/images/pet2025_h_1.gif' width='30'></td>
     <td>SoftBank</td><td>2 - 4</td><td>Rakuten</td>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
+  </tr>
+</table>
+
+## ⚾ 인터리그
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan='3'>⚾ 인터리그</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan='3'>경기 없음!</td>
+    <td></td>
+  </tr>
+</table>
+
+## ⚾ C.L. 클라이맥스 시리즈 1차
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan='3'>⚾ C.L. 클라이맥스 시리즈 1차</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan='3'>경기 없음!</td>
+    <td></td>
+  </tr>
+</table>
+
+## ⚾ P.L. 클라이맥스 시리즈 1차
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan='3'>⚾ P.L. 클라이맥스 시리즈 1차</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan='3'>경기 없음!</td>
+    <td></td>
+  </tr>
+</table>
+
+## ⚾ C.L. 클라이맥스 시리즈 파이널
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan='3'>⚾ C.L. 클라이맥스 시리즈 파이널</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan='3'>경기 없음!</td>
+    <td></td>
+  </tr>
+</table>
+
+## ⚾ P.L. 클라이맥스 시리즈 파이널
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan='3'>⚾ P.L. 클라이맥스 시리즈 파이널</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan='3'>경기 없음!</td>
+    <td></td>
+  </tr>
+</table>
+
+## ⚾ 일본 시리즈
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan='3'>⚾ 일본 시리즈</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan='3'>경기 없음!</td>
+    <td></td>
   </tr>
 </table>
 
