@@ -11,7 +11,8 @@ def extract_scores(driver):
     pacific_games = []
 
     central = driver.find_elements(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr')
-
+    pacific = driver.find_elements(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[2]/div/table/tbody/tr')
+    
     for i in range(1, len(central) + 1):
         base_xpath = f'//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[{i}]'
         try:
@@ -25,6 +26,24 @@ def extract_scores(driver):
                 "home": c_home, 
                 "score": c_score, 
                 "away": c_away})
+        except Exception as e:
+            print(f"센트럴 데이터 없음 (row {i}): {e}")
+            
+    for i in range(1, len(pacific) + 1):
+        base_xpath = f'//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[2]/div/table/tbody/tr[{i}]'
+        try:
+            p_home = driver.find_element(By.XPATH, base_xpath + '/td[2]').text
+            p_home_score = driver.find_element(By.XPATH, base_xpath + '/td[3]').text
+            p_away_score = driver.find_element(By.XPATH, base_xpath + '/td[5]').text
+            p_away = driver.find_element(By.XPATH, base_xpath + '/td[6]').text
+            p_score = p_home_score + ' - ' + p_away_score
+            
+            pacific_games.append({
+                "home": p_home, 
+                "score": p_score, 
+                "away": p_away})
+        except Exception as e:
+            print(f"퍼시픽 데이터 없음 (row {i}): {e}")
 
     return {"central": central_games, "pacific": pacific_games}
 
