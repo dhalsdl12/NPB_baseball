@@ -151,9 +151,7 @@ def generate_md_table(scores):
         md_contents += f"  <tr>\n    <th></th>\n    <th colspan='3'>{title}</th>\n    <th></th>\n  </tr>\n"
 
         if len(games) == 0:
-            md_contents += "  <tr>\n    <td></td>\n"
-            md_contents += "    <td colspan='3'>경기 없음!</td>\n"
-            md_contents += "    <td></td>\n  </tr>\n"
+            md_contents += "경기 없음!\n\n"
         else:
             for game in games:
                 home_logo = NPB_LOGOS.get(league, {}).get(game['home'], "")
