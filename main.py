@@ -75,7 +75,7 @@ if __name__ == "__main__":
     scores = extract_scores(driver)
     md_contents = generate_md_table(scores)
     
-    folder = "NPB_Scores"
+    folder = "NPB_scores"
     os.makedirs(folder, exist_ok=True)
     filename = os.path.join(folder, f"NPB_baseball_{yesterday_date}.md")
 
