@@ -65,4 +65,12 @@ if __name__ == "__main__":
     # Markdown 생성
     md_contents = generate_md_table_standings(standings)
     
+    # 저장
+    filename = f"NPB_baseball_{YEAR}.md")
+
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(md_contents)
+
+    print(f"Markdown file created: {filename}")
+
     driver.quit()
