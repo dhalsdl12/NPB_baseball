@@ -73,7 +73,7 @@ def generate_md_table_standings(standings):
     standings 리스트를 HTML 테이블(Markdown에 포함 가능)로 변환
     """
     md = "## NPB Standings\n\n"
-    for league, rows in results.items():
+    for league, rows in standings.items():
         title = LEAGUE_TITLES.get(league, league)
         md += f"#### {title}\n\n"
         if not rows:
