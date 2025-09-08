@@ -32,9 +32,9 @@ LEAGUE_TITLES = {
     "central": "센트럴리그",
     "pacific": "퍼시픽리그",
     "interleague": "인터리그",
-    "climax_central_first": "C.L. 클라이맥스 시리즈 1차",
-    "climax_pacific_first": "P.L. 클라이맥스 시리즈 1차",
-    "climax_central_final": "C.L. 클라이맥스 시리즈 파이널",
-    "climax_pacific_final": "P.L. 클라이맥스 시리즈 파이널",
+    "climax_central_first": "C.L. 클라이맥스 시리즈 퍼스트 스테이지",
+    "climax_pacific_first": "P.L. 클라이맥스 시리즈 퍼스트 스테이지",
+    "climax_central_final": "C.L. 클라이맥스 시리즈 파이널 스테이지",
+    "climax_pacific_final": "P.L. 클라이맥스 시리즈 파이널 스테이지",
     "nippon_series": "일본 시리즈",
 }
