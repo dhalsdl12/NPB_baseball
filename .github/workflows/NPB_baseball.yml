@@ -48,6 +48,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add NPB_scores/NPB_baseball_*.md
+        git add NPB_baseball_*.md
         git commit -m "Add daily NPB file" || echo "No changes to commit"
         git push
       env:
