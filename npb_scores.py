@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
 from datetime import datetime
-from main import LEAGUE_MAP, NPB_LOGOS, LEAGUT_TITLES
+from config import LEAGUE_MAP, NPB_LOGOS, LEAGUT_TITLES
 
 
 def parse_games(driver, rows, base_prefix):
