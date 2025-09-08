@@ -1,22 +1,36 @@
+# config.py
+from datetime import datetime, timedelta
+from pytz import timezone
+
+
+SEOUL_TZ = timezone('Asia/Seoul')
+TODAY = datetime.now(SEOUL_TZ)
+YESTERDAY = TODAY - timedelta(days=1)
+TODAY_DATE_STR = TODAY.strftime('%Y%m%d')
+YESTERDAY_DATE_STR = YESTERDAY.strftime('%Y%m%d')
+YEAR = TODAY.year  # 연도 동적 처리
+
+# --- 팀 로고 ---
 NPB_LOGOS = {
-  "central": {
-    "DeNA": "https://npb.jp/bis/images/pet2025_db_1.gif",
-    "Yakult": "https://npb.jp/bis/images/pet2025_s_1.gif",
-    "Chunichi": "https://npb.jp/bis/images/pet2025_d_1.gif",
-    "Yomiuri": "https://npb.jp/bis/images/pet2025_g_1.gif",
-    "Hanshin": "https://npb.jp/bis/images/pet2025_t_1.gif",
-    "Hiroshima": "https://npb.jp/bis/images/pet2025_c_1.gif"
-  },
-  "pacific": {
-    "Seibu": "https://npb.jp/bis/images/pet2025_l_1.gif",
-    "Lotte": "https://npb.jp/bis/images/pet2025_m_1.gif",
-    "ORIX": "https://npb.jp/bis/images/pet2025_b_1.gif",
-    "Nippon-Ham": "https://npb.jp/bis/images/pet2025_f_1.gif",
-    "SoftBank": "https://npb.jp/bis/images/pet2025_h_1.gif",
-    "Rakuten": "https://npb.jp/bis/images/pet2025_e_1.gif"
-  }
+    "central": {
+        "DeNA": f"https://npb.jp/bis/images/pet{YEAR}_db_1.gif",
+        "Yakult": f"https://npb.jp/bis/images/pet{YEAR}_s_1.gif",
+        "Chunichi": f"https://npb.jp/bis/images/pet{YEAR}_d_1.gif",
+        "Yomiuri": f"https://npb.jp/bis/images/pet{YEAR}_g_1.gif",
+        "Hanshin": f"https://npb.jp/bis/images/pet{YEAR}_t_1.gif",
+        "Hiroshima": f"https://npb.jp/bis/images/pet{YEAR}_c_1.gif"
+    },
+    "pacific": {
+        "Seibu": f"https://npb.jp/bis/images/pet{YEAR}_l_1.gif",
+        "Lotte": f"https://npb.jp/bis/images/pet{YEAR}_m_1.gif",
+        "ORIX": f"https://npb.jp/bis/images/pet{YEAR}_b_1.gif",
+        "Nippon-Ham": f"https://npb.jp/bis/images/pet{YEAR}_f_1.gif",
+        "SoftBank": f"https://npb.jp/bis/images/pet{YEAR}_h_1.gif",
+        "Rakuten": f"https://npb.jp/bis/images/pet{YEAR}_e_1.gif"
+    }
 }
 
+# --- 리그 매핑 ---
 LEAGUE_MAP = {
     "Central League": "central",
     "Pacific League": "pacific",
@@ -28,6 +42,7 @@ LEAGUE_MAP = {
     "Nippon Series": "nippon_series"
 }
 
+# --- 리그 제목 ---
 LEAGUE_TITLES = {
     "central": "센트럴리그",
     "pacific": "퍼시픽리그",
