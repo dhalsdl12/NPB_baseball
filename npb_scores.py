@@ -79,11 +79,9 @@ def generate_md_table(scores, logos):
         for game in scores['central']:
             home_logo = logos["central"].get(game['home'], "")
             away_logo = logos["central"].get(game['away'], "")
-            md_contents += f"  <tr>\n    <td></td>\n"
-            md_contents += f"    <td><img src='{home_logo}' width='30'></td>\n"
+            md_contents += f"  <tr>\n    <td><img src='{home_logo}' width='30'></td>\n"
             md_contents += f"    <td>{game['home']}</td><td>{game['score']}</td><td>{game['away']}</td>\n"
-            md_contents += f"    <td><img src='{away_logo}' width='30'></td>\n"
-            md_contents += f"    <td></td>\n  </tr>\n"
+            md_contents += f"    <td><img src='{away_logo}' width='30'></td>\n  </tr>\n"
     md_contents += "</table>\n\n"
 
     # --- 퍼시픽리그 ---
@@ -98,11 +96,10 @@ def generate_md_table(scores, logos):
         for game in scores['pacific']:
             home_logo = logos["pacific"].get(game['home'], "")
             away_logo = logos["pacific"].get(game['away'], "")
-            md_contents += f"  <tr>\n    <td></td>\n"
-            md_contents += f"    <td><img src='{home_logo}' width='30'></td>\n"
+            md_contents += f"  <tr>\n    <td><img src='{home_logo}' width='30'></td>\n"
             md_contents += f"    <td>{game['home']}</td><td>{game['score']}</td><td>{game['away']}</td>\n"
-            md_contents += f"    <td><img src='{away_logo}' width='30'></td>\n"
-            md_contents += f"    <td></td>\n  </tr>\n"
+            md_contents += f"    <td><img src='{away_logo}' width='30'></td>\n  </tr>\n"
     md_contents += "</table>\n\n"
     
+
     return md_contents
