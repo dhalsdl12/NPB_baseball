@@ -146,7 +146,7 @@ def generate_md_table(scores):
     for league, games in scores.items():
         title = LEAGUE_TITLES.get(league, league)
 
-        md_contents += f"## {title}\n\n"
+        md_contents += f"## ⚾ {title}\n\n"
         md_contents += "<table>\n"
         md_contents += f"  <tr>\n    <th></th>\n    <th colspan='3'>{title}</th>\n    <th></th>\n  </tr>\n"
 
