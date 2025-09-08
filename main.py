@@ -6,27 +6,9 @@ from selenium.webdriver.chrome.options import Options
 from datetime import datetime, timedelta
 from pytz import timezone
 from github_setting import get_github_repo, upload_github_issue
+from config import TODAY_DATE_STR, YESTERDAY_DATE_STR, YEAR
 from npb_scores import extract_scores, generate_md_table
 
-  
-def npb_scores():
-    xpath = '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[2]'
-    elements = driver.find_elements(By.XPATH, xpath)
-    for element in elements:
-        try:
-            test.append(element.text)
-        except:
-            print("error")
-
-
-def extract_article_data():
-    upload_contents = ''
-
-    for i in range(len(test)):
-        content = '\"' + test[i] + '\"'
-        upload_contents += content
-
-    return upload_contents
 
 # 크롬 드라이버 자동 설치 및 실행
 def execute_driver():
@@ -52,51 +34,26 @@ def execute_driver():
 
 
 if __name__ == "__main__":
-    access_token = os.environ['MY_GITHUB_TOKEN']
-    repository_name = "NPB_baseball"
-    seoul_timezone = timezone('Asia/Seoul')
-    
-    today = datetime.now(seoul_timezone)
-    yesterday = today - timedelta(days=1)
-    
-    #today_date = today.strftime("%Y년 %m월 %d일")
-    today_date = today.strftime('%Y%m%d')
-    yesterday_date = yesterday.strftime('%Y%m%d')
-    
-    url_scores = 'https://npb.jp/bis/eng/2025/games/gm' + yesterday_date + '.html'
-
-    
-    test = []
+    # URL 설정 (연도와 날짜 자동 반영)
+    url_scores = f'https://npb.jp/bis/eng/{YEAR}/games/gm{YESTERDAY_DATE_STR}.html'
 
     driver = execute_driver()
     driver.get(url_scores)
-    npb_scores()
 
+    # 경기 정보 파싱
     scores = extract_scores(driver)
+
+    # Markdown 생성
     md_contents = generate_md_table(scores)
-    
+
+    # 저장
     folder = "NPB_scores"
     os.makedirs(folder, exist_ok=True)
-    filename = os.path.join(folder, f"NPB_baseball_{yesterday_date}.md")
+    filename = os.path.join(folder, f"NPB_baseball_{YESTERDAY_DATE_STR}.md")
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(md_contents)
 
     print(f"Markdown file created: {filename}")
-    
-    #issue_title = f"NPB_baseball ({today_date})"
-    #upload_contents = extract_article_data()
-    #repo = get_github_repo(access_token, repository_name)
-    #upload_github_issue(repo, issue_title, upload_contents)
-    #print("Upload Github Issue Success!")
-
-    #upload_contents = extract_article_data()
-    #filename = f"NPB_baseball_{today.strftime('%Y%m%d')}.txt"
-    #file_path = os.path.join("NPB_Scores", filename)
-  
-    #with open(file_path, "w", encoding="utf-8") as f:
-        #f.write(upload_contents)
-  
-    #print(f"Text file created: {filename}")
     
     driver.quit()
