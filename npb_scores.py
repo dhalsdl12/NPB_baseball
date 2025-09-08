@@ -10,12 +10,21 @@ def extract_scores(driver):
     central_games = []
     pacific_games = []
 
-    c_home = driver.find_element(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[2]').text
-    c_away = driver.find_element(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[6]').text
-    c_home_score = driver.find_element(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[3]').text
-    c_away_score = driver.find_element(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[1]/td[5]').text
-    c_score = c_home_score + ' - ' + c_away_score
-    central_games.append({"home": c_home, "score": c_score, "away": c_away})
+    central = driver.find_elements(By.XPATH, '//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr')
+
+    for i in range(1, len(central) + 1):
+        base_xpath = f'//*[@id="gmdivlist"]/div/table/tbody/tr[2]/td[1]/div/table/tbody/tr[{i}]'
+        try:
+            c_home = driver.find_element(By.XPATH, base_xpath + '/td[2]').text
+            c_home_score = driver.find_element(By.XPATH, base_xpath + '/td[3]').text
+            c_away_score = driver.find_element(By.XPATH, base_xpath + '/td[5]').text
+            c_away = driver.find_element(By.XPATH, base_xpath + '/td[6]').text
+            c_score = c_home_score + ' - ' + c_away_score
+            
+            central_games.append({
+                "home": c_home, 
+                "score": c_score, 
+                "away": c_away})
 
     return {"central": central_games, "pacific": pacific_games}
 
