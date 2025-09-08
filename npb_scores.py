@@ -54,18 +54,6 @@ def generate_md_table(scores, logos):
     """
     md_contents = "# 오늘의 경기 결과\n\n<table>\n"
     md_contents += "  <tr>\n    <th></th>\n    <th colspan='3'>센트럴리그</th>\n    <th colspan='3'>퍼시픽리그</th>\n    <th></th>\n  </tr>\n"
-
-    # 가장 많은 경기 수 기준으로 반복
-    max_games = max(len(scores['central']), len(scores['pacific']))
-    for i in range(max_games):
-        central = scores['central'][i] if i < len(scores['central']) else {"home": "", "score": "", "away": ""}
-        pacific = scores['pacific'][i] if i < len(scores['pacific']) else {"home": "", "score": "", "away": ""}
-        md_contents += f"  <tr>\n    <td></td>\n"
-        md_contents += f"    <td>{central['home']}</td><td>{central['score']}</td><td>{central['away']}</td>\n"
-        md_contents += f"    <td>{pacific['home']}</td><td>{pacific['score']}</td><td>{pacific['away']}</td>\n"
-        md_contents += f"    <td></td>\n  </tr>\n"
-
-    md_contents += "</table>\n\n"
     
     # --- 센트럴리그 ---
     md_contents += "## ⚾ 센트럴리그\n\n"
