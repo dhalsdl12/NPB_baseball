@@ -8,7 +8,7 @@ from pytz import timezone
 from github_setting import get_github_repo, upload_github_issue
 from config import TODAY_DATE_STR, YESTERDAY_DATE_STR, YEAR
 from npb_scores import extract_scores, generate_md_table
-from npb_standings import extract_standings, generate_md_table_standing
+from npb_standings import extract_standings, generate_md_table_standings
 
 
 # 크롬 드라이버 자동 설치 및 실행
