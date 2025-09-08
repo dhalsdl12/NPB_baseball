@@ -64,4 +64,7 @@ def extract_standings(driver, url_c, url_p):
             })
         except Exception as e:
             print(f"Pacific row {i} error: {e}")
-            
+        
+
+def generate_md_table_standings:
+    a
