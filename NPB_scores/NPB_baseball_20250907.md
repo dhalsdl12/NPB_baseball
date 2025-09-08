@@ -53,73 +53,25 @@
 
 ### ⚾ 인터리그
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>인터리그</th>
-    <th></th>
-  </tr>
 경기 없음!
-
-</table>
 
 ### ⚾ C.L. 클라이맥스 시리즈 퍼스트 스테이지
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>C.L. 클라이맥스 시리즈 퍼스트 스테이지</th>
-    <th></th>
-  </tr>
 경기 없음!
-
-</table>
 
 ### ⚾ P.L. 클라이맥스 시리즈 퍼스트 스테이지
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>P.L. 클라이맥스 시리즈 퍼스트 스테이지</th>
-    <th></th>
-  </tr>
 경기 없음!
-
-</table>
 
 ### ⚾ C.L. 클라이맥스 시리즈 파이널 스테이지
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>C.L. 클라이맥스 시리즈 파이널 스테이지</th>
-    <th></th>
-  </tr>
 경기 없음!
-
-</table>
 
 ### ⚾ P.L. 클라이맥스 시리즈 파이널 스테이지
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>P.L. 클라이맥스 시리즈 파이널 스테이지</th>
-    <th></th>
-  </tr>
 경기 없음!
-
-</table>
 
 ### ⚾ 일본 시리즈
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>일본 시리즈</th>
-    <th></th>
-  </tr>
 경기 없음!
-
-</table>
 
