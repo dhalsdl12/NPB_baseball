@@ -8,6 +8,7 @@ from pytz import timezone
 from github_setting import get_github_repo, upload_github_issue
 from config import TODAY_DATE_STR, YESTERDAY_DATE_STR, YEAR
 from npb_scores import extract_scores, generate_md_table
+from npb_standings import extract_standings
 
 
 # 크롬 드라이버 자동 설치 및 실행
@@ -36,6 +37,8 @@ def execute_driver():
 if __name__ == "__main__":
     # URL 설정 (연도와 날짜 자동 반영)
     url_scores = f'https://npb.jp/bis/eng/{YEAR}/games/gm{YESTERDAY_DATE_STR}.html'
+    url_standing_c = f'https://npb.jp/bis/eng/{YEAR}/stats/std_c.html'
+    url_standing_p = f'https://npb.jp/bis/eng/{YEAR}/stats/std_c.html'
 
     driver = execute_driver()
     driver.get(url_scores)
@@ -55,5 +58,8 @@ if __name__ == "__main__":
         f.write(md_contents)
 
     print(f"Markdown file created: {filename}")
+
+    # 순위 정보 파싱
+    standings = extract_standings(driver, url_c, url_p)
     
     driver.quit()
