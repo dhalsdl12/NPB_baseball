@@ -53,7 +53,6 @@ def generate_md_table(scores, logos):
     여러 경기 리스트를 받아서 HTML 테이블 포함 Markdown 생성
     """
     md_contents = "# 오늘의 경기 결과\n\n<table>\n"
-    md_contents += "  <tr>\n    <th></th>\n    <th colspan='3'>센트럴리그</th>\n    <th colspan='3'>퍼시픽리그</th>\n    <th></th>\n  </tr>\n"
     
     # --- 센트럴리그 ---
     md_contents += "## ⚾ 센트럴리그\n\n"
