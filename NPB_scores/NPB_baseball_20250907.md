@@ -1,12 +1,12 @@
-# 오늘의 경기 결과
+## 오늘의 경기 결과
 
 
-## ⚾ 센트럴리그
+### ⚾ 센트럴리그
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>⚾ 센트럴리그</th>
+    <th colspan='3'>센트럴리그</th>
     <th></th>
   </tr>
   <tr>
@@ -26,12 +26,12 @@
   </tr>
 </table>
 
-## ⚾ 퍼시픽리그
+### ⚾ 퍼시픽리그
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>⚾ 퍼시픽리그</th>
+    <th colspan='3'>퍼시픽리그</th>
     <th></th>
   </tr>
   <tr>
@@ -51,93 +51,75 @@
   </tr>
 </table>
 
-## ⚾ 인터리그
+### ⚾ 인터리그
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>⚾ 인터리그</th>
+    <th colspan='3'>인터리그</th>
     <th></th>
   </tr>
-  <tr>
-    <td></td>
-    <td colspan='3'>경기 없음!</td>
-    <td></td>
-  </tr>
+경기 없음!
+
 </table>
 
-## ⚾ C.L. 클라이맥스 시리즈 1차
+### ⚾ C.L. 클라이맥스 시리즈 퍼스트 스테이지
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>⚾ C.L. 클라이맥스 시리즈 1차</th>
+    <th colspan='3'>C.L. 클라이맥스 시리즈 퍼스트 스테이지</th>
     <th></th>
   </tr>
-  <tr>
-    <td></td>
-    <td colspan='3'>경기 없음!</td>
-    <td></td>
-  </tr>
+경기 없음!
+
 </table>
 
-## ⚾ P.L. 클라이맥스 시리즈 1차
+### ⚾ P.L. 클라이맥스 시리즈 퍼스트 스테이지
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>⚾ P.L. 클라이맥스 시리즈 1차</th>
+    <th colspan='3'>P.L. 클라이맥스 시리즈 퍼스트 스테이지</th>
     <th></th>
   </tr>
-  <tr>
-    <td></td>
-    <td colspan='3'>경기 없음!</td>
-    <td></td>
-  </tr>
+경기 없음!
+
 </table>
 
-## ⚾ C.L. 클라이맥스 시리즈 파이널
+### ⚾ C.L. 클라이맥스 시리즈 파이널 스테이지
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>⚾ C.L. 클라이맥스 시리즈 파이널</th>
+    <th colspan='3'>C.L. 클라이맥스 시리즈 파이널 스테이지</th>
     <th></th>
   </tr>
-  <tr>
-    <td></td>
-    <td colspan='3'>경기 없음!</td>
-    <td></td>
-  </tr>
+경기 없음!
+
 </table>
 
-## ⚾ P.L. 클라이맥스 시리즈 파이널
+### ⚾ P.L. 클라이맥스 시리즈 파이널 스테이지
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>⚾ P.L. 클라이맥스 시리즈 파이널</th>
+    <th colspan='3'>P.L. 클라이맥스 시리즈 파이널 스테이지</th>
     <th></th>
   </tr>
-  <tr>
-    <td></td>
-    <td colspan='3'>경기 없음!</td>
-    <td></td>
-  </tr>
+경기 없음!
+
 </table>
 
-## ⚾ 일본 시리즈
+### ⚾ 일본 시리즈
 
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>⚾ 일본 시리즈</th>
+    <th colspan='3'>일본 시리즈</th>
     <th></th>
   </tr>
-  <tr>
-    <td></td>
-    <td colspan='3'>경기 없음!</td>
-    <td></td>
-  </tr>
+경기 없음!
+
 </table>
 
