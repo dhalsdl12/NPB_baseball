@@ -67,13 +67,31 @@ if __name__ == "__main__":
 
     
     test = []
+    npb_logos = {
+      "central": {
+        "DeNA": "https://npb.jp/bis/images/pet2025_db_1.gif",
+        "Yakult": "https://npb.jp/bis/images/pet2025_s_1.gif",
+        "Chunichi": "https://npb.jp/bis/images/pet2025_d_1.gif",
+        "Yomiuri": "https://npb.jp/bis/images/pet2025_g_1.gif",
+        "Hanshin": "https://npb.jp/bis/images/pet2025_t_1.gif",
+        "Hiroshima": "https://npb.jp/bis/images/pet2025_c_1.gif"
+      },
+      "pacific": {
+        "Seibu": "https://npb.jp/bis/images/pet2025_l_1.gif",
+        "Lotte": "https://npb.jp/bis/images/pet2025_m_1.gif",
+        "ORIX": "https://npb.jp/bis/images/pet2025_b_1.gif",
+        "Nippon-Ham": "https://npb.jp/bis/images/pet2025_f_1.gif",
+        "SoftBank": "https://npb.jp/bis/images/pet2025_h_1.gif",
+        "Rakuten": "https://npb.jp/bis/images/pet2025_e_1.gif"
+      }
+    }
 
     driver = execute_driver()
     driver.get(url_scores)
     npb_scores()
 
     scores = extract_scores(driver)
-    md_contents = generate_md_table(scores)
+    md_contents = generate_md_table(scores, npb_logos)
     
     folder = "NPB_scores"
     os.makedirs(folder, exist_ok=True)
