@@ -21,19 +21,19 @@
 
 ### ⚾ Interleague
 
-<br>
+<br></br>
 ### ⚾ C.L. Climax Series First Stage
 
-<br>
+<br></br>
 ### ⚾ P.L. Climax Series First Stage
 
-<br>
+<br></br>
 ### ⚾ C.L. Climax Series Final Stage
 
-<br>
+<br></br>
 ### ⚾ P.L. Climax Series Final Stage
 
-<br>
+<br></br>
 ### ⚾ Nippon Series
 
-<br>
+<br></br>
