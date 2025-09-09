@@ -3,6 +3,7 @@
 
 ### ⚾ Central League
 
+
 ### ⚾ Pacific League
 
 <table>
@@ -20,19 +21,19 @@
 
 ### ⚾ Interleague
 
-<br></br>
+
 ### ⚾ C.L. Climax Series First Stage
 
-<br></br>
+
 ### ⚾ P.L. Climax Series First Stage
 
-<br></br>
+
 ### ⚾ C.L. Climax Series Final Stage
 
-<br></br>
+
 ### ⚾ P.L. Climax Series Final Stage
 
-<br></br>
+
 ### ⚾ Nippon Series
 
-<br></br>
+
