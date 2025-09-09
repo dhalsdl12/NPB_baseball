@@ -91,11 +91,10 @@ def generate_md_table_standings(standings):
             team_name = r['team'].replace("\n", " ")
             team_key = TEAM_NAME_MAP.get(team_name, team_name)
             logo = NPB_LOGOS.get(league, {}).get(team_key, "")
-            print(team_name, team_key, logo)
             
             md += (
                 f"<tr>"
-                f"    <td><img src='{logo}' width='30'></td>\n"
+                f"<td><img src='{logo}' width='30'></td>\n"
                 f"<td>{r['team']}</td>"
                 f"<td>{r['G']}</td>"
                 f"<td>{r['W']}</td>"
