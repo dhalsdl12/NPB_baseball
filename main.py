@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 from datetime import datetime, timedelta
 from pytz import timezone
 from github_setting import get_github_repo, upload_github_issue
-from config import TODAY_DATE_STR, YESTERDAY_DATE_STR, YEAR
+from config import TODAY_DATE_STR, YESTERDAY_DATE_STR, YEAR, MONTH
 from npb_scores import extract_scores, generate_md_table
 from npb_standings import extract_standings, generate_md_table_standings
 
@@ -50,7 +50,7 @@ if __name__ == "__main__":
     md_contents = generate_md_table(scores)
 
     # 저장
-    folder = "NPB_scores"
+    folder = os.path.join("NPB_scores", str(YEAR), f"{MONTH:02d})
     os.makedirs(folder, exist_ok=True)
     filename = os.path.join(folder, f"NPB_baseball_{YESTERDAY_DATE_STR}.md")
 
