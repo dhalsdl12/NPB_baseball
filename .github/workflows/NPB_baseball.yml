@@ -51,6 +51,7 @@ jobs:
         # 하위 폴더 포함해서 add
         git add NPB_scores/*/*/NPB_baseball_*.md
         git add NPB_standings/NPB_baseball_*.md
+        git add README.md
         git commit -m "Add daily NPB file" || echo "No changes to commit"
         git push
       env:
