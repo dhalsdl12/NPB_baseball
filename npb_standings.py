@@ -88,9 +88,10 @@ def generate_md_table_standings(standings):
 
         # 각 팀 데이터
         for r in rows:
-            team_key = TEAM_NAME_MAP.get(r['team'], r['team'])
+            team_name = r['team'].replace("\n", " ")
+            team_key = TEAM_NAME_MAP.get(team_name, team_name)
             logo = NPB_LOGOS.get(league, {}).get(team_key, "")
-            print(r['team'], team_key, logo)
+            print(team_name, team_key, logo)
             
             md += (
                 f"<tr>"
