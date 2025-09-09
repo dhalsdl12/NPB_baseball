@@ -65,7 +65,7 @@ def generate_md_table(scores):
         md_contents += f"### ⚾ {title}\n\n"
 
         if len(games) == 0:
-            md_contents += "<br></br>\n"
+            md_contents += "\n"
         else:
             md_contents += "<table>\n"
             md_contents += f"  <tr>\n    <th></th>\n    <th colspan='3'>{title}</th>\n    <th></th>\n  </tr>\n"
