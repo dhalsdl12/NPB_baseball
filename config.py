@@ -9,6 +9,7 @@ YESTERDAY = TODAY - timedelta(days=1)
 TODAY_DATE_STR = TODAY.strftime('%Y%m%d')
 YESTERDAY_DATE_STR = YESTERDAY.strftime('%Y%m%d')
 YEAR = TODAY.year  # 연도 동적 처리
+MONTH = TODAY.month
 
 # --- 팀 이름 매핑 ---
 TEAM_NAME_MAP = {
