@@ -10,6 +10,23 @@ TODAY_DATE_STR = TODAY.strftime('%Y%m%d')
 YESTERDAY_DATE_STR = YESTERDAY.strftime('%Y%m%d')
 YEAR = TODAY.year  # 연도 동적 처리
 
+# --- 팀 이름 매핑 ---
+TEAM_NAME_MAP = {
+    "Hanshin Tigers": "Hanshin",
+    "Yomiuri Giants": "Yomiuri",
+    "Hiroshima Toyo Carp": "Hiroshima",
+    "Chunichi Dragons": "Chunichi",
+    "Tokyo Yakult Swallows": "Yakult",
+    "YOKOHAMA DeNA BAYSTARS": "DeNA",
+
+    "Saitama Seibu Lions": "Seibu",
+    "Chiba Lotte Marines": "Lotte",
+    "Orix Buffaloes": "ORIX",
+    "Hokkaido Nippon-Ham Fighters	": "Nippon-Ham",
+    "Fukuoka SoftBank Hawks": "SoftBank",
+    "Tohoku Rakuten Golden Eagles": "Rakuten",
+}
+
 # --- 팀 로고 ---
 NPB_LOGOS = {
     "central": {
