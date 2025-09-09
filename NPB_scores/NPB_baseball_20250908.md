@@ -3,7 +3,6 @@
 
 ### ⚾ Central League
 
-<br></br>
 ### ⚾ Pacific League
 
 <table>
