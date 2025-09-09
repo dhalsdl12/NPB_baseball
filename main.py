@@ -39,7 +39,8 @@ if __name__ == "__main__":
     url_scores = f'https://npb.jp/bis/eng/{YEAR}/games/gm{YESTERDAY_DATE_STR}.html'
     url_standing_c = f'https://npb.jp/bis/eng/{YEAR}/stats/std_c.html'
     url_standing_p = f'https://npb.jp/bis/eng/{YEAR}/stats/std_p.html'
-
+    md_contents = "#NPB_baseball\n\n\n"
+    
     driver = execute_driver()
     driver.get(url_scores)
 
@@ -47,7 +48,7 @@ if __name__ == "__main__":
     scores = extract_scores(driver)
 
     # Markdown 생성
-    md_contents = generate_md_table(scores)
+    md_scores = generate_md_table(scores)
 
     # 저장
     folder = os.path.join("NPB_scores", str(YEAR), f"{MONTH:02d})
@@ -55,7 +56,7 @@ if __name__ == "__main__":
     filename = os.path.join(folder, f"NPB_baseball_{YESTERDAY_DATE_STR}.md")
 
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(md_contents)
+        f.write(md_scores)
 
     print(f"Markdown file created: {filename}")
 
@@ -63,7 +64,7 @@ if __name__ == "__main__":
     standings = extract_standings(driver, url_standing_c, url_standing_p)
     
     # Markdown 생성
-    md_contents = generate_md_table_standings(standings)
+    md_standings = generate_md_table_standings(standings)
     
     # 저장
     folder = "NPB_standings"
@@ -71,8 +72,18 @@ if __name__ == "__main__":
     filename = os.path.join(folder, f"NPB_baseball_{YEAR}.md")
 
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(md_contents)
+        f.write(md_standings)
 
     print(f"Markdown file created: {filename}")
+
+
+    md_contents += md_scores
+    md_contents += md_standings
+
+    #저장
+    filename = f"README.md"
+
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(md_contents)
 
     driver.quit()
