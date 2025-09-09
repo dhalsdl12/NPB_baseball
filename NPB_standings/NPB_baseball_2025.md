@@ -1,6 +1,6 @@
 ## NPB Standings
 
-#### Central League
+#### ⚾ Central League
 
 <table>
 <tr><th></th><th>Team</th><th>G</th><th>W</th><th>L</th><th>T</th><th>PCT</th><th>GB</th></tr>
@@ -72,7 +72,7 @@ Swallows</td>
 </tr>
 </table>
 
-#### Pacific League
+#### ⚾ Pacific League
 
 <table>
 <tr><th></th><th>Team</th><th>G</th><th>W</th><th>L</th><th>T</th><th>PCT</th><th>GB</th></tr>
@@ -144,7 +144,7 @@ Marines</td>
 </tr>
 </table>
 
-#### Interleague
+#### ⚾ Interleague
 
 데이터 없음!
 
