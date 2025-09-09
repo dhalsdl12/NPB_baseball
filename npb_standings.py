@@ -93,15 +93,15 @@ def generate_md_table_standings(standings):
             logo = NPB_LOGOS.get(league, {}).get(team_key, "")
             
             md += (
-                f"<tr>"
-                f"<td><img src='{logo}' width='30'></td>\n"
-                f"<td>{r['team']}</td>"
-                f"<td>{r['G']}</td>"
-                f"<td>{r['W']}</td>"
-                f"<td>{r['L']}</td>"
-                f"<td>{r['T']}</td>"
-                f"<td>{r['PCT']}</td>"
-                f"<td>{r['GB']}</td>"
+                f"<tr>\n"
+                f"    <td><img src='{logo}' width='30'></td>\n"
+                f"    <td>{r['team']}</td>\n"
+                f"    <td>{r['G']}</td>\n"
+                f"    <td>{r['W']}</td>\n"
+                f"    <td>{r['L']}</td>\n"
+                f"    <td>{r['T']}</td>\n"
+                f"    <td>{r['PCT']}</td>\n"
+                f"    <td>{r['GB']}</td>\n"
                 f"</tr>\n"
             )
 
