@@ -51,7 +51,7 @@ if __name__ == "__main__":
     md_scores = generate_md_table(scores)
 
     # 저장
-    folder = os.path.join("NPB_scores", str(YEAR), f"{MONTH:02d})
+    folder = os.path.join("NPB_scores", str(YEAR), f"{MONTH:02d}")
     os.makedirs(folder, exist_ok=True)
     filename = os.path.join(folder, f"NPB_baseball_{YESTERDAY_DATE_STR}.md")
 
