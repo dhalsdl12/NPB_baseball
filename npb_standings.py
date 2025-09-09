@@ -73,7 +73,7 @@ def generate_md_table_standings(standings):
     md = "## NPB Standings\n\n"
     for league, rows in standings.items():
         title = LEAGUE_TITLES.get(league, league)
-        md += f"#### {title}\n\n"
+        md += f"#### ⚾ {title}\n\n"
         if not rows:
             md += "데이터 없음!\n\n"
             continue
