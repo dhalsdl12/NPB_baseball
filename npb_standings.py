@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.chrome.options import Options
 from datetime import datetime
-from config import LEAGUE_MAP, NPB_LOGOS, LEAGUE_TITLES
+from config import LEAGUE_MAP, NPB_LOGOS, LEAGUE_TITLES, TEAM_NAME_MAP
 
 
 def extract_standings(driver, url_c, url_p):
@@ -82,14 +82,18 @@ def generate_md_table_standings(standings):
         md += (
             "<table>\n"
             "<tr>"
-            "<th>Team</th><th>G</th><th>W</th><th>L</th><th>T</th><th>PCT</th><th>GB</th>"
+            "<th></th><th>Team</th><th>G</th><th>W</th><th>L</th><th>T</th><th>PCT</th><th>GB</th>"
             "</tr>\n"
         )
 
         # 각 팀 데이터
         for r in rows:
+            team_key = TEAM_NAME_MAP.get(r['team'], r['team'])
+            logo = NPB_LOGOS.get(league, {}).get(team_key, "")
+            
             md += (
                 f"<tr>"
+                f"    <td><img src='{logo}' width='30'></td>\n"
                 f"<td>{r['team']}</td>"
                 f"<td>{r['G']}</td>"
                 f"<td>{r['W']}</td>"
