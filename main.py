@@ -66,7 +66,9 @@ if __name__ == "__main__":
     md_contents = generate_md_table_standings(standings)
     
     # 저장
-    filename = f"NPB_baseball_{YEAR}.md"
+    folder = "NPB_standings"
+    os.makedirs(folder, exist_ok=True)
+    filename = os.path.join(folder, f"NPB_baseball_{YEAR}.md")
 
     with open(filename, "w", encoding="utf-8") as f:
         f.write(md_contents)
