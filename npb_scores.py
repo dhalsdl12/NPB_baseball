@@ -10,7 +10,7 @@ from config import LEAGUE_MAP, NPB_LOGOS, LEAGUE_TITLES
 def parse_games(driver, rows, base_prefix):
     """개별 리그의 경기 정보 파싱"""
     games = []
-    for i in range(1, len(rows) + 1):
+    for i in range(1, len(rows) + 1, 2):
         base_xpath = f"{base_prefix}[{i}]"
         try:
             home = driver.find_element(By.XPATH, base_xpath + '/td[2]').text
