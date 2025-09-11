@@ -8,66 +8,66 @@
     <td><img src='https://npb.jp/bis/images/pet2025_t_1.gif' width='30'></td>
     <td>Hanshin
 Tigers</td>
-    <td>127</td>
+    <td>128</td>
     <td>78</td>
-    <td>46</td>
+    <td>47</td>
     <td>3</td>
-    <td>.629</td>
+    <td>.624</td>
     <td>--</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_g_1.gif' width='30'></td>
     <td>Yomiuri
 Giants</td>
-    <td>127</td>
-    <td>62</td>
+    <td>128</td>
+    <td>63</td>
     <td>62</td>
     <td>3</td>
-    <td>.500</td>
-    <td>16.0</td>
+    <td>.504</td>
+    <td>15.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_db_1.gif' width='30'></td>
     <td>YOKOHAMA DeNA
 BAYSTARS</td>
-    <td>126</td>
-    <td>59</td>
+    <td>127</td>
+    <td>60</td>
     <td>62</td>
     <td>5</td>
-    <td>.488</td>
-    <td>17.5</td>
+    <td>.492</td>
+    <td>16.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_d_1.gif' width='30'></td>
     <td>Chunichi
 Dragons</td>
-    <td>126</td>
-    <td>56</td>
+    <td>127</td>
+    <td>57</td>
     <td>68</td>
     <td>2</td>
-    <td>.452</td>
-    <td>22.0</td>
+    <td>.456</td>
+    <td>21.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_c_1.gif' width='30'></td>
     <td>Hiroshima Toyo
 Carp</td>
-    <td>126</td>
+    <td>127</td>
     <td>54</td>
-    <td>67</td>
+    <td>68</td>
     <td>5</td>
-    <td>.446</td>
+    <td>.443</td>
     <td>22.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_s_1.gif' width='30'></td>
     <td>Tokyo Yakult
 Swallows</td>
-    <td>122</td>
+    <td>123</td>
     <td>46</td>
-    <td>70</td>
+    <td>71</td>
     <td>6</td>
-    <td>.397</td>
+    <td>.393</td>
     <td>28.0</td>
 </tr>
 </table>
