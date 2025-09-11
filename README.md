@@ -9,7 +9,7 @@
 <table>
   <tr>
     <th></th>
-    <th colspan='3'>Central </th>   
+    <th colspan='3'>Central League</th>
     <th></th>
   </tr>
   <tr>
