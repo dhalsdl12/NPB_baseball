@@ -45,8 +45,10 @@ jobs:
     # 5️⃣ GitHub에 파일 commit & push
     - name: Commit and push text file
       run: |
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        # git config --global user.name "github-actions[bot]"
+        # git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "Ohmin Kwon"
+        git config --global user.email "dhalsdl12@gmail.com"
 
         # 하위 폴더 포함해서 add
         git add NPB_scores/*/*/NPB_baseball_*.md
