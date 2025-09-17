@@ -102,12 +102,12 @@ Fighters</td>
     <td><img src='' width='30'></td>
     <td>ORIX
 Buffaloes</td>
-    <td>128</td>
-    <td>64</td>
+    <td>129</td>
+    <td>65</td>
     <td>61</td>
     <td>3</td>
-    <td>.512</td>
-    <td>14.0</td>
+    <td>.516</td>
+    <td>13.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
@@ -135,12 +135,12 @@ Lions</td>
     <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
     <td>Chiba Lotte
 Marines</td>
-    <td>128</td>
+    <td>129</td>
     <td>49</td>
-    <td>76</td>
+    <td>77</td>
     <td>3</td>
-    <td>.392</td>
-    <td>29.0</td>
+    <td>.389</td>
+    <td>29.5</td>
 </tr>
 </table>
 

@@ -6,28 +6,6 @@
 
 ### ⚾ Central League
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>Central League</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_db_1.gif' width='30'></td>
-    <td>DeNA</td><td>3 - 0</td><td>Yomiuri</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_g_1.gif' width='30'></td>
-  </tr>
-  <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_t_1.gif' width='30'></td>
-    <td>Hanshin</td><td>6 - 2</td><td>Chunichi</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_d_1.gif' width='30'></td>
-  </tr>
-  <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_c_1.gif' width='30'></td>
-    <td>Hiroshima</td><td>6 - 2</td><td>Yakult</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_s_1.gif' width='30'></td>
-  </tr>
-</table>
 
 ### ⚾ Pacific League
 
@@ -38,19 +16,9 @@
     <th></th>
   </tr>
   <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_f_1.gif' width='30'></td>
-    <td>Nippon-Ham</td><td>12 - 5</td><td>Seibu</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_l_1.gif' width='30'></td>
-  </tr>
-  <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
-    <td>Rakuten</td><td>5 - 4</td><td>Lotte</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
-  </tr>
-  <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_b_1.gif' width='30'></td>
-    <td>ORIX</td><td>0 - 5</td><td>SoftBank</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_h_1.gif' width='30'></td>
+    <td>ORIX</td><td>7 - 3</td><td>Lotte</td>
+    <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
   </tr>
 </table>
 
@@ -176,12 +144,12 @@ Fighters</td>
     <td><img src='' width='30'></td>
     <td>ORIX
 Buffaloes</td>
-    <td>128</td>
-    <td>64</td>
+    <td>129</td>
+    <td>65</td>
     <td>61</td>
     <td>3</td>
-    <td>.512</td>
-    <td>14.0</td>
+    <td>.516</td>
+    <td>13.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
@@ -209,12 +177,12 @@ Lions</td>
     <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
     <td>Chiba Lotte
 Marines</td>
-    <td>128</td>
+    <td>129</td>
     <td>49</td>
-    <td>76</td>
+    <td>77</td>
     <td>3</td>
-    <td>.392</td>
-    <td>29.0</td>
+    <td>.389</td>
+    <td>29.5</td>
 </tr>
 </table>
 
