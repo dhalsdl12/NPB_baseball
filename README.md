@@ -6,28 +6,6 @@
 
 ### ⚾ Central League
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>Central League</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_s_1.gif' width='30'></td>
-    <td>Yakult</td><td>0 - 3</td><td>Chunichi</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_d_1.gif' width='30'></td>
-  </tr>
-  <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_db_1.gif' width='30'></td>
-    <td>DeNA</td><td>2 - 2</td><td>Hanshin</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_t_1.gif' width='30'></td>
-  </tr>
-  <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_c_1.gif' width='30'></td>
-    <td>Hiroshima</td><td>5 - 0</td><td>Yomiuri</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_g_1.gif' width='30'></td>
-  </tr>
-</table>
 
 ### ⚾ Pacific League
 
@@ -38,19 +16,14 @@
     <th></th>
   </tr>
   <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_f_1.gif' width='30'></td>
-    <td>Nippon-Ham</td><td>0 - 7</td><td>Rakuten</td>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
+    <td>Rakuten</td><td>3 - 8</td><td>SoftBank</td>
+    <td><img src='https://npb.jp/bis/images/pet2025_h_1.gif' width='30'></td>
   </tr>
   <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
-    <td>Lotte</td><td>1 - 0</td><td>Seibu</td>
+    <td>Lotte</td><td>5 - 0</td><td>Seibu</td>
     <td><img src='https://npb.jp/bis/images/pet2025_l_1.gif' width='30'></td>
-  </tr>
-  <tr>
-    <td><img src='https://npb.jp/bis/images/pet2025_h_1.gif' width='30'></td>
-    <td>SoftBank</td><td>0 - 1</td><td>ORIX</td>
-    <td><img src='https://npb.jp/bis/images/pet2025_b_1.gif' width='30'></td>
   </tr>
 </table>
 
@@ -154,11 +127,11 @@ Swallows</td>
     <td><img src='https://npb.jp/bis/images/pet2025_h_1.gif' width='30'></td>
     <td>Fukuoka SoftBank
 Hawks</td>
-    <td>135</td>
-    <td>80</td>
+    <td>136</td>
+    <td>81</td>
     <td>51</td>
     <td>4</td>
-    <td>.611</td>
+    <td>.614</td>
     <td>--</td>
 </tr>
 <tr>
@@ -170,7 +143,7 @@ Fighters</td>
     <td>55</td>
     <td>3</td>
     <td>.590</td>
-    <td>2.5</td>
+    <td>3.0</td>
 </tr>
 <tr>
     <td><img src='' width='30'></td>
@@ -181,39 +154,39 @@ Buffaloes</td>
     <td>63</td>
     <td>3</td>
     <td>.523</td>
-    <td>11.5</td>
+    <td>12.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
     <td>Tohoku Rakuten
 Golden Eagles</td>
-    <td>133</td>
+    <td>134</td>
     <td>64</td>
-    <td>67</td>
+    <td>68</td>
     <td>2</td>
-    <td>.489</td>
-    <td>16.0</td>
+    <td>.485</td>
+    <td>17.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_l_1.gif' width='30'></td>
     <td>Saitama Seibu
 Lions</td>
-    <td>133</td>
+    <td>134</td>
     <td>60</td>
-    <td>70</td>
+    <td>71</td>
     <td>3</td>
-    <td>.462</td>
-    <td>19.5</td>
+    <td>.458</td>
+    <td>20.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
     <td>Chiba Lotte
 Marines</td>
-    <td>135</td>
-    <td>53</td>
+    <td>136</td>
+    <td>54</td>
     <td>79</td>
     <td>3</td>
-    <td>.402</td>
+    <td>.406</td>
     <td>27.5</td>
 </tr>
 </table>
