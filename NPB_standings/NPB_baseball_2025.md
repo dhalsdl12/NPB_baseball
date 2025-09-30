@@ -102,45 +102,45 @@ Fighters</td>
     <td><img src='' width='30'></td>
     <td>ORIX
 Buffaloes</td>
-    <td>138</td>
-    <td>71</td>
+    <td>139</td>
+    <td>72</td>
     <td>64</td>
     <td>3</td>
-    <td>.526</td>
-    <td>13.5</td>
+    <td>.529</td>
+    <td>13.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
     <td>Tohoku Rakuten
 Golden Eagles</td>
-    <td>138</td>
+    <td>139</td>
     <td>64</td>
-    <td>72</td>
+    <td>73</td>
     <td>2</td>
-    <td>.471</td>
-    <td>21.0</td>
+    <td>.467</td>
+    <td>21.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_l_1.gif' width='30'></td>
     <td>Saitama Seibu
 Lions</td>
-    <td>138</td>
-    <td>61</td>
+    <td>139</td>
+    <td>62</td>
     <td>74</td>
     <td>3</td>
-    <td>.452</td>
-    <td>23.5</td>
+    <td>.456</td>
+    <td>23.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
     <td>Chiba Lotte
 Marines</td>
-    <td>139</td>
+    <td>140</td>
     <td>55</td>
-    <td>81</td>
+    <td>82</td>
     <td>3</td>
-    <td>.404</td>
-    <td>30.0</td>
+    <td>.401</td>
+    <td>30.5</td>
 </tr>
 </table>
 
