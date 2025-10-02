@@ -19,34 +19,34 @@ Tigers</td>
     <td><img src='https://npb.jp/bis/images/pet2025_db_1.gif' width='30'></td>
     <td>YOKOHAMA DeNA
 BAYSTARS</td>
-    <td>142</td>
-    <td>70</td>
+    <td>143</td>
+    <td>71</td>
     <td>66</td>
     <td>6</td>
-    <td>.515</td>
-    <td>13.0</td>
+    <td>.518</td>
+    <td>12.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_g_1.gif' width='30'></td>
     <td>Yomiuri
 Giants</td>
-    <td>142</td>
-    <td>69</td>
+    <td>143</td>
+    <td>70</td>
     <td>69</td>
     <td>4</td>
-    <td>.500</td>
-    <td>15.0</td>
+    <td>.504</td>
+    <td>14.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_d_1.gif' width='30'></td>
     <td>Chunichi
 Dragons</td>
-    <td>142</td>
+    <td>143</td>
     <td>63</td>
-    <td>77</td>
+    <td>78</td>
     <td>2</td>
-    <td>.450</td>
-    <td>22.0</td>
+    <td>.447</td>
+    <td>22.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_c_1.gif' width='30'></td>
@@ -63,12 +63,12 @@ Carp</td>
     <td><img src='https://npb.jp/bis/images/pet2025_s_1.gif' width='30'></td>
     <td>Tokyo Yakult
 Swallows</td>
-    <td>139</td>
+    <td>140</td>
     <td>55</td>
-    <td>77</td>
+    <td>78</td>
     <td>7</td>
-    <td>.417</td>
-    <td>26.0</td>
+    <td>.414</td>
+    <td>26.5</td>
 </tr>
 </table>
 
@@ -102,12 +102,12 @@ Fighters</td>
     <td><img src='' width='30'></td>
     <td>ORIX
 Buffaloes</td>
-    <td>139</td>
-    <td>72</td>
+    <td>140</td>
+    <td>73</td>
     <td>64</td>
     <td>3</td>
-    <td>.529</td>
-    <td>12.5</td>
+    <td>.533</td>
+    <td>12.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
@@ -124,12 +124,12 @@ Golden Eagles</td>
     <td><img src='https://npb.jp/bis/images/pet2025_l_1.gif' width='30'></td>
     <td>Saitama Seibu
 Lions</td>
-    <td>139</td>
+    <td>140</td>
     <td>62</td>
-    <td>74</td>
+    <td>75</td>
     <td>3</td>
-    <td>.456</td>
-    <td>22.5</td>
+    <td>.453</td>
+    <td>23.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
