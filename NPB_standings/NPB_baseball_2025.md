@@ -52,23 +52,23 @@ Dragons</td>
     <td><img src='https://npb.jp/bis/images/pet2025_c_1.gif' width='30'></td>
     <td>Hiroshima Toyo
 Carp</td>
-    <td>141</td>
+    <td>142</td>
     <td>59</td>
-    <td>77</td>
+    <td>78</td>
     <td>5</td>
-    <td>.434</td>
-    <td>24.5</td>
+    <td>.431</td>
+    <td>25.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_s_1.gif' width='30'></td>
     <td>Tokyo Yakult
 Swallows</td>
-    <td>141</td>
-    <td>55</td>
+    <td>142</td>
+    <td>56</td>
     <td>79</td>
     <td>7</td>
-    <td>.410</td>
-    <td>27.5</td>
+    <td>.415</td>
+    <td>27.0</td>
 </tr>
 </table>
 
@@ -80,11 +80,11 @@ Swallows</td>
     <td><img src='https://npb.jp/bis/images/pet2025_h_1.gif' width='30'></td>
     <td>Fukuoka SoftBank
 Hawks</td>
-    <td>141</td>
-    <td>85</td>
+    <td>142</td>
+    <td>86</td>
     <td>52</td>
     <td>4</td>
-    <td>.620</td>
+    <td>.623</td>
     <td>--</td>
 </tr>
 <tr>
@@ -96,40 +96,40 @@ Fighters</td>
     <td>56</td>
     <td>3</td>
     <td>.597</td>
-    <td>3.0</td>
+    <td>3.5</td>
 </tr>
 <tr>
     <td><img src='' width='30'></td>
     <td>ORIX
 Buffaloes</td>
-    <td>141</td>
+    <td>142</td>
     <td>73</td>
-    <td>65</td>
+    <td>66</td>
     <td>3</td>
-    <td>.529</td>
-    <td>12.5</td>
+    <td>.525</td>
+    <td>13.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
     <td>Tohoku Rakuten
 Golden Eagles</td>
-    <td>140</td>
-    <td>65</td>
+    <td>141</td>
+    <td>66</td>
     <td>73</td>
     <td>2</td>
-    <td>.471</td>
+    <td>.475</td>
     <td>20.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_l_1.gif' width='30'></td>
     <td>Saitama Seibu
 Lions</td>
-    <td>141</td>
+    <td>142</td>
     <td>63</td>
-    <td>75</td>
+    <td>76</td>
     <td>3</td>
-    <td>.457</td>
-    <td>22.5</td>
+    <td>.453</td>
+    <td>23.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
@@ -140,7 +140,7 @@ Marines</td>
     <td>83</td>
     <td>3</td>
     <td>.399</td>
-    <td>30.5</td>
+    <td>31.0</td>
 </tr>
 </table>
 
