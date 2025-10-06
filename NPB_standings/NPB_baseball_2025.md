@@ -80,11 +80,11 @@ Swallows</td>
     <td><img src='https://npb.jp/bis/images/pet2025_h_1.gif' width='30'></td>
     <td>Fukuoka SoftBank
 Hawks</td>
-    <td>142</td>
-    <td>86</td>
+    <td>143</td>
+    <td>87</td>
     <td>52</td>
     <td>4</td>
-    <td>.623</td>
+    <td>.626</td>
     <td>--</td>
 </tr>
 <tr>
@@ -96,29 +96,29 @@ Fighters</td>
     <td>57</td>
     <td>3</td>
     <td>.593</td>
-    <td>4.0</td>
+    <td>4.5</td>
 </tr>
 <tr>
     <td><img src='' width='30'></td>
     <td>ORIX
 Buffaloes</td>
-    <td>142</td>
-    <td>73</td>
+    <td>143</td>
+    <td>74</td>
     <td>66</td>
     <td>3</td>
-    <td>.525</td>
+    <td>.529</td>
     <td>13.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_e_1.gif' width='30'></td>
     <td>Tohoku Rakuten
 Golden Eagles</td>
-    <td>142</td>
+    <td>143</td>
     <td>67</td>
-    <td>73</td>
+    <td>74</td>
     <td>2</td>
-    <td>.479</td>
-    <td>20.0</td>
+    <td>.475</td>
+    <td>21.0</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_l_1.gif' width='30'></td>
@@ -129,18 +129,18 @@ Lions</td>
     <td>77</td>
     <td>3</td>
     <td>.450</td>
-    <td>24.0</td>
+    <td>24.5</td>
 </tr>
 <tr>
     <td><img src='https://npb.jp/bis/images/pet2025_m_1.gif' width='30'></td>
     <td>Chiba Lotte
 Marines</td>
-    <td>142</td>
+    <td>143</td>
     <td>56</td>
-    <td>83</td>
+    <td>84</td>
     <td>3</td>
-    <td>.403</td>
-    <td>30.5</td>
+    <td>.400</td>
+    <td>31.5</td>
 </tr>
 </table>
 
