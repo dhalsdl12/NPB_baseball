@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td><img src='' width='30'></td>
-    <td>DeNA</td><td>6 - 2</td><td>Yomiuri</td>
+    <td>DeNA</td><td>7 - 6</td><td>Yomiuri</td>
     <td><img src='' width='30'></td>
   </tr>
 </table>
@@ -38,7 +38,7 @@
   </tr>
   <tr>
     <td><img src='' width='30'></td>
-    <td>Nippon-Ham</td><td>2 - 0</td><td>ORIX</td>
+    <td>Nippon-Ham</td><td>5 - 4</td><td>ORIX</td>
     <td><img src='' width='30'></td>
   </tr>
 </table>
