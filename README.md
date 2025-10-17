@@ -29,7 +29,7 @@
   </tr>
   <tr>
     <td><img src='' width='30'></td>
-    <td>Hanshin</td><td>2 - 0</td><td>DeNA</td>
+    <td>Hanshin</td><td>5 - 3</td><td>DeNA</td>
     <td><img src='' width='30'></td>
   </tr>
 </table>
@@ -44,7 +44,7 @@
   </tr>
   <tr>
     <td><img src='' width='30'></td>
-    <td>SoftBank</td><td>2 - 1</td><td>Nippon-Ham</td>
+    <td>SoftBank</td><td>3 - 0</td><td>Nippon-Ham</td>
     <td><img src='' width='30'></td>
   </tr>
 </table>
