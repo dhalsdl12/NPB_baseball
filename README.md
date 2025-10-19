@@ -21,18 +21,6 @@
 
 ### ⚾ C.L. Climax Series Final Stage
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>C.L. Climax Series Final Stage</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td><img src='' width='30'></td>
-    <td>Hanshin</td><td>4 - 0</td><td>DeNA</td>
-    <td><img src='' width='30'></td>
-  </tr>
-</table>
 
 ### ⚾ P.L. Climax Series Final Stage
 
@@ -44,7 +32,7 @@
   </tr>
   <tr>
     <td><img src='' width='30'></td>
-    <td>SoftBank</td><td>0 - 6</td><td>Nippon-Ham</td>
+    <td>SoftBank</td><td>3 - 9</td><td>Nippon-Ham</td>
     <td><img src='' width='30'></td>
   </tr>
 </table>
