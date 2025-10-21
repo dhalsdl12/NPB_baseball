@@ -32,7 +32,7 @@
   </tr>
   <tr>
     <td><img src='' width='30'></td>
-    <td>SoftBank</td><td>1 - 7</td><td>Nippon-Ham</td>
+    <td>SoftBank</td><td>2 - 1</td><td>Nippon-Ham</td>
     <td><img src='' width='30'></td>
   </tr>
 </table>
