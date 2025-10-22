@@ -24,18 +24,6 @@
 
 ### ⚾ P.L. Climax Series Final Stage
 
-<table>
-  <tr>
-    <th></th>
-    <th colspan='3'>P.L. Climax Series Final Stage</th>
-    <th></th>
-  </tr>
-  <tr>
-    <td><img src='' width='30'></td>
-    <td>SoftBank</td><td>2 - 1</td><td>Nippon-Ham</td>
-    <td><img src='' width='30'></td>
-  </tr>
-</table>
 
 ### ⚾ Nippon Series
 
