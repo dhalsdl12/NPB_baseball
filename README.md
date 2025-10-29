@@ -27,6 +27,18 @@
 
 ### ⚾ Nippon Series
 
+<table>
+  <tr>
+    <th></th>
+    <th colspan='3'>Nippon Series</th>
+    <th></th>
+  </tr>
+  <tr>
+    <td><img src='' width='30'></td>
+    <td>Hanshin</td><td>1 - 2</td><td>SoftBank</td>
+    <td><img src='' width='30'></td>
+  </tr>
+</table>
 
 ## NPB Standings
 
