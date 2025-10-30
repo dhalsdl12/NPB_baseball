@@ -35,7 +35,7 @@
   </tr>
   <tr>
     <td><img src='' width='30'></td>
-    <td>Hanshin</td><td>1 - 2</td><td>SoftBank</td>
+    <td>Hanshin</td><td>2 - 3</td><td>SoftBank</td>
     <td><img src='' width='30'></td>
   </tr>
 </table>
