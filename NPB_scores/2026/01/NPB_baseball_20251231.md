@@ -1,6 +1,3 @@
-# NPB_baseball
-
-
 ## 오늘의 경기 결과
 
 
@@ -27,18 +24,4 @@
 
 ### ⚾ Nippon Series
 
-
-## NPB Standings
-
-#### ⚾ Central League
-
-데이터 없음!
-
-#### ⚾ Pacific League
-
-데이터 없음!
-
-#### ⚾ Interleague
-
-데이터 없음!
 
